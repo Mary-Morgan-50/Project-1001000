@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About Us</title>
+   <link rel="stylesheet" href="style.css"> 
+  </head>
+  <body>
+    <h1>About Us</h1>
+    <div style="text-align: center">
+    <a id="home" href="index.html">Home</a>
+    <a id="levels" href="levels.html">Levels</a>
+    <a id="entities" href="entities.html">Entities</a>
+    <a id="You_are_here" href="entities.html">You are here</a>
+    <br>
+    </div>
+    <h3><p>Hello this project:100100 secratary Mary Morgan here to inform you about what our oraganization is.</p>
+        <p> The project was created by our founder eno Y.T. neves, with the intention of helping the ones who get stuck in here, to do that he created the</p>
+        <div class="popup" onclick="myFunction()"><strong id="Important">rules</strong></h3>
+            <span class="popuptext" id="myPopup">The Five Rules<ol>
+                <li>Don't kill any other survivors</li>
+                <li>Don't question the rules</li>
+                <li>Follow our instrutions left in our guides so you won't die</li>
+                <li>DON'T go to level 1001000</li>
+                <li>DON'T TRUST ENTITY 72</li>
+            </ol>
+            </span>
+          </div>
+          <script>
+            // When the user clicks on <div>, open the popup
+            function myFunction() {
+              var popup = document.getElementById("myPopup");
+              popup.classList.toggle("show");
+            }
+            </script>
+            <h3>and as long as you folow them    <strong id="scary">everything will be fine!</strong></p></h3>
+            <hr>
+            <div style="text-align: center;">
+            <form action="THANK-YOU-FOR-YOUR-FEEDBACK.jpeg" target="_blank">
+           <label for="feedback"><h3> Write some feedback here...</h3></label>
+            <input id="feedback" type="text">
+            <label for="date?"><h3>Insert a date...</h3></label>
+            <input id="date?" type="date">
+            <input type="submit">
+            </form>
+        </div>
+        <label for="test">Choose a level:</label>
+        <select id="test" name="Options" size="2">
+        <option>level 0</option>
+        <option>level 1</option>
+        <option>level 2</option>
+        <option>level 3</option>
+        <output></output>
+        </select>
+  </body>
+</html>

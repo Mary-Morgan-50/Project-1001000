@@ -1,0 +1,190 @@
+body {
+  background-color: black
+}
+h1 {
+  color: white;
+  Text-align: center;
+}
+h2 {
+  color: white;
+  text-align: center;
+}
+h3 {
+  color: white;
+  Text-align: center;
+}
+a {
+  color: floralwhite;
+  border-style: solid;
+  border-color: beige;
+  border-radius: 3px;
+  padding: 2px;
+  text-decoration: none;
+}
+#home {
+  font-size: 30px;
+  background-color: #dc0606;
+}
+#levels {
+  font-size: 30px;
+  background-color: #dc0606;
+}
+#You_are_here {
+  font-size: 30px;
+  background-color: cornflowerblue;
+}
+#entities {
+  font-size: 30px;
+  background-color: #dc0606;
+}
+#about_us {
+  font-size: 30px;
+  background-color: #dc0606;
+}
+.level_0 {
+  font-family: cursive;
+  letter-spacing: 3px
+}
+.Cla {
+  width: 160px;
+  height: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: 725px;
+  margin-top: -195px
+}
+#Important{
+  font-family: fantasy;
+  color: #dc0606;
+  letter-spacing: 2px;
+}
+#scary{
+  font-family: 'Courier New', Courier, monospace;
+  color: cyan;
+  text-shadow: -2px 2px red;
+  letter-spacing: 2px;
+}
+.Treath{
+  border-radius: 2px;
+  border-style: solid;
+  border-color: #fff;
+  #hostile{
+    color: #ff0000;}
+  #tameable{
+  color: orange;}
+  #careful{
+  color: yellow;}
+  #peaceful{
+          color: green;}
+  #unknown{
+color: rgb(94, 92, 92);}
+}        
+        
+      
+    
+  
+
+
+/* Tooltip container */
+.tooltip {
+  position: static;
+  display: inline-block;
+  border-bottom: 1px black;
+  font-size: 20px;
+  color: white
+  /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text */
+  position: static;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+  content: "";
+  position: static;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Popup container */
+.popup {
+  position: static;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 260px;
+  background-color: #ff0000;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: static;
+  margin-bottom: 25px;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -70px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: 100%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
