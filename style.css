@@ -1,5 +1,5 @@
 body {
-  background-color: black
+  background-color: black;
 }
 h1 {
   color: white;
@@ -43,7 +43,7 @@ a {
 }
 .level_0 {
   font-family: cursive;
-  letter-spacing: 3px
+  letter-spacing: 3px;
 }
 .Cla {
   width: 160px;
@@ -51,7 +51,7 @@ a {
   display: block;
   margin-left: auto;
   margin-right: 725px;
-  margin-top: -195px
+  margin-top: -195px;
 }
 #Important{
   font-family: fantasy;
